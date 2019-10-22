@@ -23,12 +23,12 @@ app.get('/', function (req, res) {
     '/hello <br>' +
     '/big <br>' +
     '/json <br>' +
-    '/greeting/yourname <br>' +
-    '/yo/Dr.Rogers <br>' +
+    '/greeting/Bhuma <br>' +
+    '/yo/Bhuma <br>' +
     '/fortune <br>' +
-    '/fancy/?first=Denise&last=Case <br>' +
+    '/fancy/?first=Bhuma&last=Hareesh <br>' +
     '<br> <br>' +
-    'Fork the source code from <a href="https://github.com/denisecase/node-express-app">https://github.com/denisecase/node-express-app</a>'
+    'Fork the source code from <a href="https://github.com/hareeshbhuma/node-express-app">https://github.com/hareeshbhuma/node-express-app</a>'
   )
 })
 
@@ -45,7 +45,7 @@ app.get('/big', (req, res) => {
 
 // or respond with JSON
 app.get('/json', (req, res) => {
-  res.send('{"name" : "Nandini"}')
+  res.send('{"name" : "Bhuma"}')
 })
 
 // :name indicates a parameter at this location in the URI
